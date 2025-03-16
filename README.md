@@ -1,5 +1,7 @@
 # Higgs_boson_scattering_amplitudes_DNN
 
+[![Project Website](https://img.shields.io/badge/website-Project%20Site-blue)](https://www.aretetheory.co.uk/) 
+
 ## Performing Loop Integration Using Neural Networks (Dated: April 17, 2024) 
 - **Abstract**: Neural network (NN) technology was used to integrate the Feynman parameterised integral for the 1 loop process of Higgs boson pair production, from a top loop, over a phase space region. Randomly sampled phase-space and Feynman parameters were used to obtain exact integrand values, that were then fitted to the derivative of the neural network. The neural network then evaluated these integrals over the trained region ≃ 10 times faster than the Monte Carlo integrator pySecDec, which integrates over specific phase-space configurations. 
 Different activation functions were applied to the neural network to further the theoretical understanding and accuracy shown in the current literature. The performance of the architectures differed, because the shapes of their activation function’s derivatives affected the behaviour of their backpropagated gradients during training. 
